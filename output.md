@@ -1,89 +1,173 @@
 The INSTANA_AGENT_KEY variable is not set. Defaulting to a blank string.
-Pulling mongodb   ... 
-Pulling redis     ... 
-Pulling rabbitmq  ... 
-Pulling catalogue ... 
-Pulling user      ... 
-Pulling cart      ... 
-Pulling mysql     ... 
-Pulling shipping  ... 
-Pulling ratings   ... 
-Pulling payment   ... 
-Pulling dispatch  ... 
-Pulling web       ... 
-Pulling mysql     ... pulling from robotshop/rs-mysql-db
-Pulling mongodb   ... pulling from robotshop/rs-mongodb
-Pulling web       ... pulling from robotshop/rs-web
-Pulling catalogue ... pulling from robotshop/rs-catalogue
-Pulling web       ... digest: sha256:b3c20d4a22f2875397...
-Pulling web       ... status: image is up to date for r...
-Pulling mongodb   ... digest: sha256:119b545823cdce33a1...
-Pulling mongodb   ... status: image is up to date for r...
-Pulling mysql     ... digest: sha256:2355f9700d771f4326...
-Pulling mysql     ... status: image is up to date for r...
-Pulling web       ... done
-Pulling mongodb   ... done
-Pulling payment   ... pulling from robotshop/rs-payment
-Pulling catalogue ... digest: sha256:d545747c1b97cd2e0f...
-Pulling catalogue ... status: image is up to date for r...
-Pulling mysql     ... done
-Pulling catalogue ... done
-Pulling payment   ... digest: sha256:774b52c6180d8f3273...
-Pulling payment   ... status: image is up to date for r...
-Pulling payment   ... done
-Pulling cart      ... pulling from robotshop/rs-cart
-Pulling rabbitmq  ... pulling from library/rabbitmq
-Pulling cart      ... digest: sha256:388349d5cb3ccc14a1...
-Pulling cart      ... status: image is up to date for r...
-Pulling shipping  ... pulling from robotshop/rs-shipping
-Pulling cart      ... done
-Pulling ratings   ... pulling from robotshop/rs-ratings
-Pulling user      ... pulling from robotshop/rs-user
-Pulling shipping  ... digest: sha256:89753ab48919328640...
-Pulling shipping  ... status: image is up to date for r...
-Pulling shipping  ... done
-Pulling rabbitmq  ... digest: sha256:a6e85b9153c1e0fe4c...
-Pulling rabbitmq  ... status: image is up to date for r...
-Pulling ratings   ... digest: sha256:4899c686c249464783...
-Pulling ratings   ... status: image is up to date for r...
-Pulling user      ... digest: sha256:ea509182c180d20340...
-Pulling user      ... status: image is up to date for r...
-Pulling rabbitmq  ... done
-Pulling ratings   ... done
-Pulling user      ... done
-Pulling redis     ... pulling from library/redis
-Pulling dispatch  ... pulling from robotshop/rs-dispatch
-Pulling dispatch  ... digest: sha256:de81f1d07b021f24c1...
-Pulling dispatch  ... status: image is up to date for r...
-Pulling redis     ... digest: sha256:4bed291aa5efb9f0d7...
-Pulling redis     ... status: image is up to date for r...
-Pulling dispatch  ... done
-Pulling redis     ... done
+Pulling mongodb   ... 
+
+Pulling redis     ... 
+
+Pulling rabbitmq  ... 
+
+Pulling catalogue ... 
+
+Pulling user      ... 
+
+Pulling cart      ... 
+
+Pulling mysql     ... 
+
+Pulling shipping  ... 
+
+Pulling ratings   ... 
+
+Pulling payment   ... 
+
+Pulling dispatch  ... 
+
+Pulling web       ... 
+
+Pulling mysql     ... pulling from robotshop/rs-mysql-db
+
+Pulling mongodb   ... pulling from robotshop/rs-mongodb
+
+Pulling web       ... pulling from robotshop/rs-web
+
+Pulling catalogue ... pulling from robotshop/rs-catalogue
+
+Pulling web       ... digest: sha256:b3c20d4a22f2875397...
+
+Pulling web       ... status: image is up to date for r...
+
+Pulling mongodb   ... digest: sha256:119b545823cdce33a1...
+
+Pulling mongodb   ... status: image is up to date for r...
+
+Pulling mysql     ... digest: sha256:2355f9700d771f4326...
+
+Pulling mysql     ... status: image is up to date for r...
+
+Pulling web       ... done
+
+Pulling mongodb   ... done
+
+Pulling payment   ... pulling from robotshop/rs-payment
+
+Pulling catalogue ... digest: sha256:d545747c1b97cd2e0f...
+
+Pulling catalogue ... status: image is up to date for r...
+
+Pulling mysql     ... done
+
+Pulling catalogue ... done
+
+Pulling payment   ... digest: sha256:774b52c6180d8f3273...
+
+Pulling payment   ... status: image is up to date for r...
+
+Pulling payment   ... done
+
+Pulling cart      ... pulling from robotshop/rs-cart
+
+Pulling rabbitmq  ... pulling from library/rabbitmq
+
+Pulling cart      ... digest: sha256:388349d5cb3ccc14a1...
+
+Pulling cart      ... status: image is up to date for r...
+
+Pulling shipping  ... pulling from robotshop/rs-shipping
+
+Pulling cart      ... done
+
+Pulling ratings   ... pulling from robotshop/rs-ratings
+
+Pulling user      ... pulling from robotshop/rs-user
+
+Pulling shipping  ... digest: sha256:89753ab48919328640...
+
+Pulling shipping  ... status: image is up to date for r...
+
+Pulling shipping  ... done
+
+Pulling rabbitmq  ... digest: sha256:a6e85b9153c1e0fe4c...
+
+Pulling rabbitmq  ... status: image is up to date for r...
+
+Pulling ratings   ... digest: sha256:4899c686c249464783...
+
+Pulling ratings   ... status: image is up to date for r...
+
+Pulling user      ... digest: sha256:ea509182c180d20340...
+
+Pulling user      ... status: image is up to date for r...
+
+Pulling rabbitmq  ... done
+
+Pulling ratings   ... done
+
+Pulling user      ... done
+
+Pulling redis     ... pulling from library/redis
+
+Pulling dispatch  ... pulling from robotshop/rs-dispatch
+
+Pulling dispatch  ... digest: sha256:de81f1d07b021f24c1...
+
+Pulling dispatch  ... status: image is up to date for r...
+
+Pulling redis     ... digest: sha256:4bed291aa5efb9f0d7...
+
+Pulling redis     ... status: image is up to date for r...
+
+Pulling dispatch  ... done
+
+Pulling redis     ... done
+
 The INSTANA_AGENT_KEY variable is not set. Defaulting to a blank string.
-Starting robot-shop_mongodb_1 ... 
-Starting robot-shop_redis_1   ... 
-Starting robot-shop_rabbitmq_1 ... 
-Starting robot-shop_mysql_1    ... 
-Starting robot-shop_mysql_1    ... done
-Starting robot-shop_shipping_1 ... 
-Starting robot-shop_ratings_1  ... 
-Starting robot-shop_rabbitmq_1 ... done
-Starting robot-shop_dispatch_1 ... 
-Starting robot-shop_payment_1  ... 
-Starting robot-shop_mongodb_1  ... done
-Starting robot-shop_catalogue_1 ... 
-Starting robot-shop_redis_1     ... done
-Starting robot-shop_user_1      ... 
-Starting robot-shop_cart_1      ... 
-Starting robot-shop_shipping_1  ... done
-Starting robot-shop_ratings_1   ... done
-Starting robot-shop_dispatch_1  ... done
-Starting robot-shop_payment_1   ... done
-Starting robot-shop_catalogue_1 ... done
-Starting robot-shop_cart_1      ... done
-Starting robot-shop_user_1      ... done
-Starting robot-shop_web_1       ... 
-Starting robot-shop_web_1       ... done
+Starting robot-shop_mongodb_1 ... 
+
+Starting robot-shop_redis_1   ... 
+
+Starting robot-shop_rabbitmq_1 ... 
+
+Starting robot-shop_mysql_1    ... 
+
+Starting robot-shop_mysql_1    ... done
+
+Starting robot-shop_shipping_1 ... 
+
+Starting robot-shop_ratings_1  ... 
+
+Starting robot-shop_rabbitmq_1 ... done
+
+Starting robot-shop_dispatch_1 ... 
+
+Starting robot-shop_payment_1  ... 
+
+Starting robot-shop_mongodb_1  ... done
+
+Starting robot-shop_catalogue_1 ... 
+
+Starting robot-shop_redis_1     ... done
+
+Starting robot-shop_user_1      ... 
+
+Starting robot-shop_cart_1      ... 
+
+Starting robot-shop_shipping_1  ... done
+
+Starting robot-shop_ratings_1   ... done
+
+Starting robot-shop_dispatch_1  ... done
+
+Starting robot-shop_payment_1   ... done
+
+Starting robot-shop_catalogue_1 ... done
+
+Starting robot-shop_cart_1      ... done
+
+Starting robot-shop_user_1      ... done
+
+Starting robot-shop_web_1       ... 
+
+Starting robot-shop_web_1       ... done
+
 Attaching to robot-shop_mysql_1, robot-shop_rabbitmq_1, robot-shop_mongodb_1, robot-shop_redis_1, robot-shop_shipping_1, robot-shop_ratings_1, robot-shop_dispatch_1, robot-shop_payment_1, robot-shop_catalogue_1, robot-shop_cart_1, robot-shop_user_1, robot-shop_web_1
 [36mcart_1       |[0m {"name":"@instana/collector","__in":1,"hostname":"638b204c95bb","pid":1,"module":"pidStore","level":30,"msg":"Starting with pid 1","time":"2022-02-17T18:35:20.090Z","v":0}
 [36mcart_1       |[0m {"name":"@instana/collector","__in":1,"hostname":"638b204c95bb","pid":1,"module":"index","level":30,"msg":"@instana/collector module version: 1.132.2","time":"2022-02-17T18:35:20.675Z","v":0}
@@ -315,24 +399,40 @@ Attaching to robot-shop_mysql_1, robot-shop_rabbitmq_1, robot-shop_mongodb_1, ro
 [32mdispatch_1   |[0m 2022/02/17 18:35:31 dial tcp 172.18.0.3:5672: connect: connection refused
 [32mdispatch_1   |[0m 2022/02/17 18:35:31 Reconnecting to amqp://guest:guest@rabbitmq:5672/
 [34;1mshipping_1   |[0m 2022-02-17 18:35:31.803  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 334ms. Found 2 JPA repository interfaces.
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.147 [debug] <0.289.0> Lager installed handler error_logger_lager_h into error_logger
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.295.0> Lager installed handler lager_forwarder_backend into rabbit_log_lager_event
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.292.0> Lager installed handler lager_forwarder_backend into error_logger_lager_event
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.298.0> Lager installed handler lager_forwarder_backend into rabbit_log_channel_lager_event
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.301.0> Lager installed handler lager_forwarder_backend into rabbit_log_connection_lager_event
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.313.0> Lager installed handler lager_forwarder_backend into rabbit_log_mirroring_lager_event
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.304.0> Lager installed handler lager_forwarder_backend into rabbit_log_feature_flags_lager_event
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.316.0> Lager installed handler lager_forwarder_backend into rabbit_log_prelaunch_lager_event
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.307.0> Lager installed handler lager_forwarder_backend into rabbit_log_federation_lager_event
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.322.0> Lager installed handler lager_forwarder_backend into rabbit_log_ra_lager_event
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.310.0> Lager installed handler lager_forwarder_backend into rabbit_log_ldap_lager_event
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.325.0> Lager installed handler lager_forwarder_backend into rabbit_log_shovel_lager_event
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.319.0> Lager installed handler lager_forwarder_backend into rabbit_log_queue_lager_event
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.328.0> Lager installed handler lager_forwarder_backend into rabbit_log_upgrade_lager_event
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.231 [info] <0.44.0> Application lager started on node rabbit@8721fe809b25
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.147 [debug] <0.289.0> Lager installed handler error_logger_lager_h into error_logger
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.295.0> Lager installed handler lager_forwarder_backend into rabbit_log_lager_event
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.292.0> Lager installed handler lager_forwarder_backend into error_logger_lager_event
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.298.0> Lager installed handler lager_forwarder_backend into rabbit_log_channel_lager_event
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.301.0> Lager installed handler lager_forwarder_backend into rabbit_log_connection_lager_event
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.313.0> Lager installed handler lager_forwarder_backend into rabbit_log_mirroring_lager_event
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.304.0> Lager installed handler lager_forwarder_backend into rabbit_log_feature_flags_lager_event
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.316.0> Lager installed handler lager_forwarder_backend into rabbit_log_prelaunch_lager_event
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.307.0> Lager installed handler lager_forwarder_backend into rabbit_log_federation_lager_event
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.322.0> Lager installed handler lager_forwarder_backend into rabbit_log_ra_lager_event
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.310.0> Lager installed handler lager_forwarder_backend into rabbit_log_ldap_lager_event
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.325.0> Lager installed handler lager_forwarder_backend into rabbit_log_shovel_lager_event
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.319.0> Lager installed handler lager_forwarder_backend into rabbit_log_queue_lager_event
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.205 [debug] <0.328.0> Lager installed handler lager_forwarder_backend into rabbit_log_upgrade_lager_event
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.231 [info] <0.44.0> Application lager started on node rabbit@8721fe809b25
+
 [32mdispatch_1   |[0m 2022/02/17 18:35:32 dial tcp 172.18.0.3:5672: connect: connection refused
 [32mdispatch_1   |[0m 2022/02/17 18:35:32 Reconnecting to amqp://guest:guest@rabbitmq:5672/
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.646 [debug] <0.285.0> Lager installed handler lager_backend_throttle into lager_event
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:32.646 [debug] <0.285.0> Lager installed handler lager_backend_throttle into lager_event
+
 [34;1mshipping_1   |[0m 2022-02-17 18:35:32.786  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$94357d1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 [34;1mshipping_1   |[0m 2022-02-17 18:35:33.098  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'shippingServiceApplication' of type [com.instana.robotshop.shipping.ShippingServiceApplication$$EnhancerBySpringCGLIB$$3be91ecd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 [32mdispatch_1   |[0m 2022/02/17 18:35:33 dial tcp 172.18.0.3:5672: connect: connection refused
@@ -387,11 +487,13 @@ Attaching to robot-shop_mysql_1, robot-shop_rabbitmq_1, robot-shop_mongodb_1, ro
 [33mweb_1        |[0m 127.0.0.1 - - [17/Feb/2022:18:35:44 +0000] "GET / HTTP/1.1" 200 2610 "-" "curl/7.64.0" "-"
 [32mdispatch_1   |[0m 2022/02/17 18:35:45 dial tcp 172.18.0.3:5672: connect: connection refused
 [32mdispatch_1   |[0m 2022/02/17 18:35:45 Reconnecting to amqp://guest:guest@rabbitmq:5672/
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:46.345 [info] <0.44.0> Application mnesia started on node rabbit@8721fe809b25
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:46.345 [info] <0.44.0> Application mnesia started on node rabbit@8721fe809b25
+
 [33;1mrabbitmq_1   |[0m 2022-02-17 18:35:46.347 [info] <0.273.0> 
 [33;1mrabbitmq_1   |[0m  Starting RabbitMQ 3.8.27 on Erlang 24.2.1 [jit]
 [33;1mrabbitmq_1   |[0m  Copyright (c) 2007-2021 VMware, Inc. or its affiliates.
-[33;1mrabbitmq_1   |[0m  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+[33;1mrabbitmq_1   |[0m  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+
 [33;1mrabbitmq_1   |[0m 
 [33;1mrabbitmq_1   |[0m   ##  ##      RabbitMQ 3.8.27
 [33;1mrabbitmq_1   |[0m   ##  ##
@@ -417,7 +519,8 @@ Attaching to robot-shop_mysql_1, robot-shop_rabbitmq_1, robot-shop_mongodb_1, ro
 [33;1mrabbitmq_1   |[0m  config file(s) : /etc/rabbitmq/rabbitmq.conf
 [33;1mrabbitmq_1   |[0m  cookie hash    : 95Rbc8znDHD/fyLoWGVKFw==
 [33;1mrabbitmq_1   |[0m  log(s)         : <stdout>
-[33;1mrabbitmq_1   |[0m  database dir   : /var/lib/rabbitmq/mnesia/rabbit@8721fe809b25
+[33;1mrabbitmq_1   |[0m  database dir   : /var/lib/rabbitmq/mnesia/rabbit@8721fe809b25
+
 [32mdispatch_1   |[0m 2022/02/17 18:35:46 instana: INFO: failed to send a request to http://localhost:42699/: Get "http://localhost:42699/": dial tcp 127.0.0.1:42699: connect: connection refused
 [32mdispatch_1   |[0m 2022/02/17 18:35:46 instana: INFO: failed to send a request to http://172.18.0.1:42699/: Get "http://172.18.0.1:42699/": dial tcp 172.18.0.1:42699: connect: connection refused
 [32mdispatch_1   |[0m 2022/02/17 18:35:46 instana: ERROR: cannot connect to the agent through localhost or default gateway, scheduling retry
@@ -435,7 +538,7 @@ Attaching to robot-shop_mysql_1, robot-shop_rabbitmq_1, robot-shop_mongodb_1, ro
 [32mdispatch_1   |[0m 2022/02/17 18:35:48 dial tcp 172.18.0.3:5672: connect: connection refused
 [32mdispatch_1   |[0m 2022/02/17 18:35:48 Reconnecting to amqp://guest:guest@rabbitmq:5672/
 [34;1mshipping_1   |[0m 2022-02-17 18:35:48.695  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-[34;1mshipping_1   |[0m 2022-02-17 18:35:48.715  INFO 1 --- [           main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+[34;1mshipping_1   |[0m 2022-02-17 18:35:48.715  INFO 1 --- [           main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositoriesÂ…
 [36;1mpayment_1    |[0m [pid: 7|app: 0|req: 3/3] 127.0.0.1 () {26 vars in 295 bytes} [Thu Feb 17 18:35:48 2022] GET /health => generated 2 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 200 bytes (1 switches on core 0)
 [33mcatalogue_1  |[0m {"level":"info","time":1645122949033,"pid":1,"hostname":"fcc9aee59208","req":{"id":5,"method":"GET","url":"/health","headers":{"host":"localhost:8080","user-agent":"curl/7.52.1","accept":"*/*","x-instana-synthetic":"1"},"remoteAddress":"::ffff:127.0.0.1","remotePort":48566},"res":{"statusCode":200,"headers":{"x-powered-by":"Express","timing-allow-origin":"*","access-control-allow-origin":"*","content-type":"application/json; charset=utf-8","content-length":"25","etag":"W/\"19-lxLecms+EooPZfmeTebCy69HUmE\""}},"responseTime":18,"msg":"request completed","v":1}
 [32mdispatch_1   |[0m 2022/02/17 18:35:49 dial tcp 172.18.0.3:5672: connect: connection refused
@@ -443,146 +546,271 @@ Attaching to robot-shop_mysql_1, robot-shop_rabbitmq_1, robot-shop_mongodb_1, ro
 [36mcart_1       |[0m {"level":"info","time":1645122950606,"pid":1,"hostname":"638b204c95bb","req":{"id":3,"method":"GET","url":"/health","headers":{"host":"localhost:8080","user-agent":"curl/7.52.1","accept":"*/*","x-instana-synthetic":"1"},"remoteAddress":"::ffff:127.0.0.1","remotePort":48576},"res":{"statusCode":200,"headers":{"x-powered-by":"Express","timing-allow-origin":"*","access-control-allow-origin":"*","content-type":"application/json; charset=utf-8","content-length":"25","etag":"W/\"19-PNgogu5NtxY46N+WhTPw15zgIXM\""}},"responseTime":18,"msg":"request completed","v":1}
 [32mdispatch_1   |[0m 2022/02/17 18:35:50 dial tcp 172.18.0.3:5672: connect: connection refused
 [32mdispatch_1   |[0m 2022/02/17 18:35:50 Reconnecting to amqp://guest:guest@rabbitmq:5672/
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.088 [info] <0.273.0> Feature flags: list of feature flags found:
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.088 [info] <0.273.0> Feature flags:   [x] drop_unroutable_metric
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.088 [info] <0.273.0> Feature flags:   [x] empty_basic_get_metric
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.088 [info] <0.273.0> Feature flags:   [x] implicit_default_bindings
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.089 [info] <0.273.0> Feature flags:   [x] maintenance_mode_status
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.089 [info] <0.273.0> Feature flags:   [x] quorum_queue
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.089 [info] <0.273.0> Feature flags:   [x] user_limits
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.089 [info] <0.273.0> Feature flags:   [x] virtual_host_metadata
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.089 [info] <0.273.0> Feature flags: feature flag states written to disk: yes
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.088 [info] <0.273.0> Feature flags: list of feature flags found:
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.088 [info] <0.273.0> Feature flags:   [x] drop_unroutable_metric
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.088 [info] <0.273.0> Feature flags:   [x] empty_basic_get_metric
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.088 [info] <0.273.0> Feature flags:   [x] implicit_default_bindings
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.089 [info] <0.273.0> Feature flags:   [x] maintenance_mode_status
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.089 [info] <0.273.0> Feature flags:   [x] quorum_queue
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.089 [info] <0.273.0> Feature flags:   [x] user_limits
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.089 [info] <0.273.0> Feature flags:   [x] virtual_host_metadata
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:51.089 [info] <0.273.0> Feature flags: feature flag states written to disk: yes
+
 [34;1mshipping_1   |[0m 2022-02-17 18:35:51.329  INFO 1 --- [           main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
 [34;1mshipping_1   |[0m 2022-02-17 18:35:51.383  INFO 1 --- [           main] c.i.r.s.ShippingServiceApplication       : Started ShippingServiceApplication in 34.291 seconds (JVM running for 37.674)
 [36muser_1       |[0m {"level":"info","time":1645122951525,"pid":1,"hostname":"9853397e8203","req":{"id":4,"method":"GET","url":"/health","headers":{"host":"localhost:8080","user-agent":"curl/7.52.1","accept":"*/*","x-instana-synthetic":"1"},"remoteAddress":"::ffff:127.0.0.1","remotePort":48580},"res":{"statusCode":200,"headers":{"x-powered-by":"Express","timing-allow-origin":"*","access-control-allow-origin":"*","content-type":"application/json; charset=utf-8","content-length":"25","etag":"W/\"19-lxLecms+EooPZfmeTebCy69HUmE\""}},"responseTime":5,"msg":"request completed","v":1}
 [32mdispatch_1   |[0m 2022/02/17 18:35:51 dial tcp 172.18.0.3:5672: connect: connection refused
 [32mdispatch_1   |[0m 2022/02/17 18:35:51 Reconnecting to amqp://guest:guest@rabbitmq:5672/
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.064 [info] <0.273.0> Running boot step pre_boot defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.064 [info] <0.273.0> Running boot step rabbit_core_metrics defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.065 [info] <0.273.0> Running boot step rabbit_alarm defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.071 [info] <0.426.0> Memory high watermark set to 4433 MiB (4648671641 bytes) of 11083 MiB (11621679104 bytes) total
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.078 [info] <0.428.0> Enabling free disk space monitoring
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.078 [info] <0.428.0> Disk free limit set to 50MB
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.085 [info] <0.273.0> Running boot step code_server_cache defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.085 [info] <0.273.0> Running boot step file_handle_cache defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.085 [info] <0.433.0> Limiting to approx 1048479 file handles (943629 sockets)
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.086 [info] <0.434.0> FHC read buffering:  OFF
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.086 [info] <0.434.0> FHC write buffering: ON
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.087 [info] <0.273.0> Running boot step worker_pool defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.087 [info] <0.377.0> Will use 4 processes for default worker pool
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.087 [info] <0.377.0> Starting worker pool 'worker_pool' with 4 processes in it
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.089 [info] <0.273.0> Running boot step database defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.094 [info] <0.273.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.194 [info] <0.273.0> Successfully synced tables from a peer
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.195 [info] <0.273.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.195 [info] <0.273.0> Successfully synced tables from a peer
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.417 [info] <0.273.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.419 [info] <0.273.0> Successfully synced tables from a peer
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.419 [info] <0.273.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.419 [info] <0.273.0> Running boot step database_sync defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.419 [info] <0.273.0> Running boot step feature_flags defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.420 [info] <0.273.0> Running boot step codec_correctness_check defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.420 [info] <0.273.0> Running boot step external_infrastructure defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.420 [info] <0.273.0> Running boot step rabbit_registry defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.420 [info] <0.273.0> Running boot step rabbit_auth_mechanism_cr_demo defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.421 [info] <0.273.0> Running boot step rabbit_queue_location_random defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.422 [info] <0.273.0> Running boot step rabbit_event defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.423 [info] <0.273.0> Running boot step rabbit_auth_mechanism_amqplain defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.423 [info] <0.273.0> Running boot step rabbit_auth_mechanism_plain defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.424 [info] <0.273.0> Running boot step rabbit_exchange_type_direct defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.424 [info] <0.273.0> Running boot step rabbit_exchange_type_fanout defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.425 [info] <0.273.0> Running boot step rabbit_exchange_type_headers defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.425 [info] <0.273.0> Running boot step rabbit_exchange_type_topic defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.425 [info] <0.273.0> Running boot step rabbit_mirror_queue_mode_all defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.426 [info] <0.273.0> Running boot step rabbit_mirror_queue_mode_exactly defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.426 [info] <0.273.0> Running boot step rabbit_mirror_queue_mode_nodes defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.426 [info] <0.273.0> Running boot step rabbit_priority_queue defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.426 [info] <0.273.0> Priority queues enabled, real BQ is rabbit_variable_queue
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.426 [info] <0.273.0> Running boot step rabbit_queue_location_client_local defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.426 [info] <0.273.0> Running boot step rabbit_queue_location_min_masters defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.427 [info] <0.273.0> Running boot step kernel_ready defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.427 [info] <0.273.0> Running boot step rabbit_sysmon_minder defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.427 [info] <0.273.0> Running boot step rabbit_epmd_monitor defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.429 [info] <0.456.0> epmd monitor knows us, inter-node communication (distribution) port: 25672
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.429 [info] <0.273.0> Running boot step guid_generator defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.486 [info] <0.273.0> Running boot step rabbit_node_monitor defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.487 [info] <0.460.0> Starting rabbit_node_monitor
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.488 [info] <0.273.0> Running boot step delegate_sup defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.491 [info] <0.273.0> Running boot step rabbit_memory_monitor defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.492 [info] <0.273.0> Running boot step core_initialized defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.492 [info] <0.273.0> Running boot step upgrade_queues defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.547 [info] <0.273.0> Running boot step channel_tracking defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.549 [info] <0.273.0> Setting up a table for channel tracking on this node: tracked_channel_on_node_rabbit@8721fe809b25
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.550 [info] <0.273.0> Setting up a table for channel tracking on this node: tracked_channel_table_per_user_on_node_rabbit@8721fe809b25
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.550 [info] <0.273.0> Running boot step rabbit_channel_tracking_handler defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.550 [info] <0.273.0> Running boot step connection_tracking defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.551 [info] <0.273.0> Setting up a table for connection tracking on this node: tracked_connection_on_node_rabbit@8721fe809b25
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.551 [info] <0.273.0> Setting up a table for per-vhost connection counting on this node: tracked_connection_per_vhost_on_node_rabbit@8721fe809b25
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.552 [info] <0.273.0> Setting up a table for per-user connection counting on this node: tracked_connection_table_per_user_on_node_rabbit@8721fe809b25
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.553 [info] <0.273.0> Running boot step rabbit_connection_tracking_handler defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.553 [info] <0.273.0> Running boot step rabbit_exchange_parameters defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.554 [info] <0.273.0> Running boot step rabbit_mirror_queue_misc defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.555 [info] <0.273.0> Running boot step rabbit_policies defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.558 [info] <0.273.0> Running boot step rabbit_policy defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.559 [info] <0.273.0> Running boot step rabbit_queue_location_validator defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.559 [info] <0.273.0> Running boot step rabbit_quorum_memory_manager defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.559 [info] <0.273.0> Running boot step rabbit_vhost_limit defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.559 [info] <0.273.0> Running boot step rabbit_mgmt_reset_handler defined by app rabbitmq_management
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.559 [info] <0.273.0> Running boot step rabbit_mgmt_db_handler defined by app rabbitmq_management_agent
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.559 [info] <0.273.0> Management plugin: using rates mode 'basic'
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.560 [info] <0.273.0> Running boot step recovery defined by app rabbit
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.064 [info] <0.273.0> Running boot step pre_boot defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.064 [info] <0.273.0> Running boot step rabbit_core_metrics defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.065 [info] <0.273.0> Running boot step rabbit_alarm defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.071 [info] <0.426.0> Memory high watermark set to 4433 MiB (4648671641 bytes) of 11083 MiB (11621679104 bytes) total
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.078 [info] <0.428.0> Enabling free disk space monitoring
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.078 [info] <0.428.0> Disk free limit set to 50MB
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.085 [info] <0.273.0> Running boot step code_server_cache defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.085 [info] <0.273.0> Running boot step file_handle_cache defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.085 [info] <0.433.0> Limiting to approx 1048479 file handles (943629 sockets)
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.086 [info] <0.434.0> FHC read buffering:  OFF
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.086 [info] <0.434.0> FHC write buffering: ON
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.087 [info] <0.273.0> Running boot step worker_pool defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.087 [info] <0.377.0> Will use 4 processes for default worker pool
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.087 [info] <0.377.0> Starting worker pool 'worker_pool' with 4 processes in it
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.089 [info] <0.273.0> Running boot step database defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.094 [info] <0.273.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.194 [info] <0.273.0> Successfully synced tables from a peer
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.195 [info] <0.273.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.195 [info] <0.273.0> Successfully synced tables from a peer
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.417 [info] <0.273.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.419 [info] <0.273.0> Successfully synced tables from a peer
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.419 [info] <0.273.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.419 [info] <0.273.0> Running boot step database_sync defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.419 [info] <0.273.0> Running boot step feature_flags defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.420 [info] <0.273.0> Running boot step codec_correctness_check defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.420 [info] <0.273.0> Running boot step external_infrastructure defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.420 [info] <0.273.0> Running boot step rabbit_registry defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.420 [info] <0.273.0> Running boot step rabbit_auth_mechanism_cr_demo defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.421 [info] <0.273.0> Running boot step rabbit_queue_location_random defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.422 [info] <0.273.0> Running boot step rabbit_event defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.423 [info] <0.273.0> Running boot step rabbit_auth_mechanism_amqplain defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.423 [info] <0.273.0> Running boot step rabbit_auth_mechanism_plain defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.424 [info] <0.273.0> Running boot step rabbit_exchange_type_direct defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.424 [info] <0.273.0> Running boot step rabbit_exchange_type_fanout defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.425 [info] <0.273.0> Running boot step rabbit_exchange_type_headers defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.425 [info] <0.273.0> Running boot step rabbit_exchange_type_topic defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.425 [info] <0.273.0> Running boot step rabbit_mirror_queue_mode_all defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.426 [info] <0.273.0> Running boot step rabbit_mirror_queue_mode_exactly defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.426 [info] <0.273.0> Running boot step rabbit_mirror_queue_mode_nodes defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.426 [info] <0.273.0> Running boot step rabbit_priority_queue defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.426 [info] <0.273.0> Priority queues enabled, real BQ is rabbit_variable_queue
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.426 [info] <0.273.0> Running boot step rabbit_queue_location_client_local defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.426 [info] <0.273.0> Running boot step rabbit_queue_location_min_masters defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.427 [info] <0.273.0> Running boot step kernel_ready defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.427 [info] <0.273.0> Running boot step rabbit_sysmon_minder defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.427 [info] <0.273.0> Running boot step rabbit_epmd_monitor defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.429 [info] <0.456.0> epmd monitor knows us, inter-node communication (distribution) port: 25672
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.429 [info] <0.273.0> Running boot step guid_generator defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.486 [info] <0.273.0> Running boot step rabbit_node_monitor defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.487 [info] <0.460.0> Starting rabbit_node_monitor
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.488 [info] <0.273.0> Running boot step delegate_sup defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.491 [info] <0.273.0> Running boot step rabbit_memory_monitor defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.492 [info] <0.273.0> Running boot step core_initialized defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.492 [info] <0.273.0> Running boot step upgrade_queues defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.547 [info] <0.273.0> Running boot step channel_tracking defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.549 [info] <0.273.0> Setting up a table for channel tracking on this node: tracked_channel_on_node_rabbit@8721fe809b25
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.550 [info] <0.273.0> Setting up a table for channel tracking on this node: tracked_channel_table_per_user_on_node_rabbit@8721fe809b25
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.550 [info] <0.273.0> Running boot step rabbit_channel_tracking_handler defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.550 [info] <0.273.0> Running boot step connection_tracking defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.551 [info] <0.273.0> Setting up a table for connection tracking on this node: tracked_connection_on_node_rabbit@8721fe809b25
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.551 [info] <0.273.0> Setting up a table for per-vhost connection counting on this node: tracked_connection_per_vhost_on_node_rabbit@8721fe809b25
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.552 [info] <0.273.0> Setting up a table for per-user connection counting on this node: tracked_connection_table_per_user_on_node_rabbit@8721fe809b25
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.553 [info] <0.273.0> Running boot step rabbit_connection_tracking_handler defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.553 [info] <0.273.0> Running boot step rabbit_exchange_parameters defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.554 [info] <0.273.0> Running boot step rabbit_mirror_queue_misc defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.555 [info] <0.273.0> Running boot step rabbit_policies defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.558 [info] <0.273.0> Running boot step rabbit_policy defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.559 [info] <0.273.0> Running boot step rabbit_queue_location_validator defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.559 [info] <0.273.0> Running boot step rabbit_quorum_memory_manager defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.559 [info] <0.273.0> Running boot step rabbit_vhost_limit defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.559 [info] <0.273.0> Running boot step rabbit_mgmt_reset_handler defined by app rabbitmq_management
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.559 [info] <0.273.0> Running boot step rabbit_mgmt_db_handler defined by app rabbitmq_management_agent
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.559 [info] <0.273.0> Management plugin: using rates mode 'basic'
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.560 [info] <0.273.0> Running boot step recovery defined by app rabbit
+
 [33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.560 [error] <0.273.0> Discarding message {'$gen_cast',{force_event_refresh,#Ref<0.235792608.1093402628.118731>}} from <0.273.0> to <0.526.0> in an old incarnation (1645113210) of this node (1645122923)
-[33;1mrabbitmq_1   |[0m 
+[33;1mrabbitmq_1   |[0m 
+
 [33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.561 [error] emulator Discarding message {'$gen_cast',{force_event_refresh,#Ref<0.235792608.1093402628.118731>}} from <0.273.0> to <0.526.0> in an old incarnation (1645113210) of this node (1645122923)
-[33;1mrabbitmq_1   |[0m 
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.564 [info] <0.497.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@8721fe809b25/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+[33;1mrabbitmq_1   |[0m 
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.564 [info] <0.497.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@8721fe809b25/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+
 [32mdispatch_1   |[0m 2022/02/17 18:35:52 dial tcp 172.18.0.3:5672: connect: connection refused
 [32mdispatch_1   |[0m 2022/02/17 18:35:52 Reconnecting to amqp://guest:guest@rabbitmq:5672/
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.636 [info] <0.497.0> Starting message stores for vhost '/'
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.637 [info] <0.501.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.642 [info] <0.497.0> Started message store of type transient for vhost '/'
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.642 [info] <0.505.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.648 [info] <0.497.0> Started message store of type persistent for vhost '/'
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.720 [info] <0.273.0> Running boot step empty_db_check defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.720 [info] <0.273.0> Will not seed default virtual host and user: have definitions to load...
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.721 [info] <0.273.0> Running boot step rabbit_looking_glass defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.721 [info] <0.273.0> Running boot step rabbit_core_metrics_gc defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.721 [info] <0.273.0> Running boot step background_gc defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.721 [info] <0.273.0> Running boot step routing_ready defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.721 [info] <0.273.0> Running boot step pre_flight defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.722 [info] <0.273.0> Running boot step notify_cluster defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.722 [info] <0.273.0> Running boot step networking defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.722 [info] <0.273.0> Running boot step definition_import_worker_pool defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.722 [info] <0.377.0> Starting worker pool 'definition_import_pool' with 4 processes in it
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.724 [info] <0.273.0> Running boot step cluster_name defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.724 [info] <0.273.0> Running boot step direct_client defined by app rabbit
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.724 [info] <0.273.0> Running boot step rabbit_management_load_definitions defined by app rabbitmq_management
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.724 [info] <0.539.0> Resetting node maintenance status
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.727 [info] <0.44.0> Application rabbit started on node rabbit@8721fe809b25
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.737 [info] <0.44.0> Application rabbitmq_management_agent started on node rabbit@8721fe809b25
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.739 [info] <0.44.0> Application cowlib started on node rabbit@8721fe809b25
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.741 [info] <0.44.0> Application cowboy started on node rabbit@8721fe809b25
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.742 [info] <0.44.0> Application rabbitmq_web_dispatch started on node rabbit@8721fe809b25
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.742 [info] <0.44.0> Application amqp_client started on node rabbit@8721fe809b25
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.788 [info] <0.598.0> Management plugin: HTTP (non-TLS) listener started on port 15672
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.789 [info] <0.626.0> Statistics database started.
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.789 [info] <0.625.0> Starting worker pool 'management_worker_pool' with 3 processes in it
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.791 [info] <0.44.0> Application rabbitmq_management started on node rabbit@8721fe809b25
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.833 [info] <0.44.0> Application prometheus started on node rabbit@8721fe809b25
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.840 [info] <0.639.0> Prometheus metrics: HTTP (non-TLS) listener started on port 15692
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.841 [info] <0.539.0> Ready to start client connection listeners
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.841 [info] <0.44.0> Application rabbitmq_prometheus started on node rabbit@8721fe809b25
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.847 [info] <0.683.0> started TCP listener on [::]:5672
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:53.618 [info] <0.687.0> accepting AMQP connection <0.687.0> (172.18.0.8:43978 -> 172.18.0.3:5672)
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:53.622 [info] <0.687.0> connection <0.687.0> (172.18.0.8:43978 -> 172.18.0.3:5672): user 'guest' authenticated and granted access to vhost '/'
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.636 [info] <0.497.0> Starting message stores for vhost '/'
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.637 [info] <0.501.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.642 [info] <0.497.0> Started message store of type transient for vhost '/'
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.642 [info] <0.505.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.648 [info] <0.497.0> Started message store of type persistent for vhost '/'
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.720 [info] <0.273.0> Running boot step empty_db_check defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.720 [info] <0.273.0> Will not seed default virtual host and user: have definitions to load...
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.721 [info] <0.273.0> Running boot step rabbit_looking_glass defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.721 [info] <0.273.0> Running boot step rabbit_core_metrics_gc defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.721 [info] <0.273.0> Running boot step background_gc defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.721 [info] <0.273.0> Running boot step routing_ready defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.721 [info] <0.273.0> Running boot step pre_flight defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.722 [info] <0.273.0> Running boot step notify_cluster defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.722 [info] <0.273.0> Running boot step networking defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.722 [info] <0.273.0> Running boot step definition_import_worker_pool defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.722 [info] <0.377.0> Starting worker pool 'definition_import_pool' with 4 processes in it
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.724 [info] <0.273.0> Running boot step cluster_name defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.724 [info] <0.273.0> Running boot step direct_client defined by app rabbit
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.724 [info] <0.273.0> Running boot step rabbit_management_load_definitions defined by app rabbitmq_management
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.724 [info] <0.539.0> Resetting node maintenance status
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.727 [info] <0.44.0> Application rabbit started on node rabbit@8721fe809b25
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.737 [info] <0.44.0> Application rabbitmq_management_agent started on node rabbit@8721fe809b25
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.739 [info] <0.44.0> Application cowlib started on node rabbit@8721fe809b25
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.741 [info] <0.44.0> Application cowboy started on node rabbit@8721fe809b25
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.742 [info] <0.44.0> Application rabbitmq_web_dispatch started on node rabbit@8721fe809b25
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.742 [info] <0.44.0> Application amqp_client started on node rabbit@8721fe809b25
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.788 [info] <0.598.0> Management plugin: HTTP (non-TLS) listener started on port 15672
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.789 [info] <0.626.0> Statistics database started.
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.789 [info] <0.625.0> Starting worker pool 'management_worker_pool' with 3 processes in it
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.791 [info] <0.44.0> Application rabbitmq_management started on node rabbit@8721fe809b25
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.833 [info] <0.44.0> Application prometheus started on node rabbit@8721fe809b25
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.840 [info] <0.639.0> Prometheus metrics: HTTP (non-TLS) listener started on port 15692
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.841 [info] <0.539.0> Ready to start client connection listeners
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.841 [info] <0.44.0> Application rabbitmq_prometheus started on node rabbit@8721fe809b25
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:52.847 [info] <0.683.0> started TCP listener on [::]:5672
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:53.618 [info] <0.687.0> accepting AMQP connection <0.687.0> (172.18.0.8:43978 -> 172.18.0.3:5672)
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:53.622 [info] <0.687.0> connection <0.687.0> (172.18.0.8:43978 -> 172.18.0.3:5672): user 'guest' authenticated and granted access to vhost '/'
+
 [32mdispatch_1   |[0m 2022/02/17 18:35:53 Rabbit MQ ready true
 [33;1mrabbitmq_1   |[0m  completed with 4 plugins.
 [33;1mrabbitmq_1   |[0m 2022-02-17 18:35:54.475 [info] <0.539.0> Server startup complete; 4 plugins started.
 [33;1mrabbitmq_1   |[0m  * rabbitmq_prometheus
 [33;1mrabbitmq_1   |[0m  * rabbitmq_management
 [33;1mrabbitmq_1   |[0m  * rabbitmq_web_dispatch
-[33;1mrabbitmq_1   |[0m  * rabbitmq_management_agent
-[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:54.475 [info] <0.539.0> Resetting node maintenance status
+[33;1mrabbitmq_1   |[0m  * rabbitmq_management_agent
+
+[33;1mrabbitmq_1   |[0m 2022-02-17 18:35:54.475 [info] <0.539.0> Resetting node maintenance status
+
 [33mweb_1        |[0m 127.0.0.1 - - [17/Feb/2022:18:35:55 +0000] "GET / HTTP/1.1" 200 2610 "-" "curl/7.64.0" "-"
 [34;1mshipping_1   |[0m 2022-02-17 18:35:55.688  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 [34;1mshipping_1   |[0m 2022-02-17 18:35:55.689  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
@@ -1672,3 +1900,11 @@ Attaching to robot-shop_mysql_1, robot-shop_rabbitmq_1, robot-shop_mongodb_1, ro
 [32;1mratings_1    |[0m [2022-02-17 18:52:28] app.INFO: Annotated DataCenter us-west1 [] []
 [32;1mratings_1    |[0m [2022-02-17 18:52:28] app.INFO: Health-Check {"pdo_connectivity":true} []
 [32;1mratings_1    |[0m 127.0.0.1 - - [17/Feb/2022:18:52:28 +0000] "GET /_health HTTP/1.1" 200 313 "-" "curl/7.74.0"
+
+  
+Answer to question 14: Yes, failure occurred when trying to push changes to the master repo. 
+I can prevent the failure in the future by:
+1st. Fetching latest from the origin master repo
+2nd. pulling current version
+3rd. committing my changes
+4th. Pushing to the master repo.
